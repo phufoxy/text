@@ -1,0 +1,14 @@
+.text {
+    width: 100%;
+    text-align: center;
+}
+
+.title {
+    color: red;
+    transition: all 1.5s;
+}
+
+.title:hover {
+    transform: rotateX(360deg);
+    transition: all 1.5s;
+}
