@@ -6,9 +6,16 @@
 .title {
     color: red;
     transition: all 1.5s;
+    transform: rotateX(360deg);
+    animation: one 2s infinite;
+    animation-direction: alternate;
 }
 
-.title:hover {
-    transform: rotateX(360deg);
-    transition: all 1.5s;
+@keyframes one {
+    0% {
+        transform: rotateX(0);
+    }
+    100% {
+        transform: rotateX(360deg);
+    }
 }
